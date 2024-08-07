@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+
+} /* tells every element on the page not to have a margin or border unless we explicitly tell it to */
+
+
+
+
 header {
 
     padding: 20px 35px  ;
@@ -15,12 +24,12 @@ header h1 {
 }
 
 header a {
-    text-decoration: none;
+    text-decoration: none; /* could be underline, strikethrough, overline */
     color: #fce138;
 
 }
 header nav {
-    float:right;
+    float:right; /*Float allows to put HTML elements that look better side by side. It makes the element inline and moves it to the right */ 
     margin: 7px 0px;
 
 }
@@ -37,7 +46,7 @@ header nav ul li a {
 
 }
 body { /* Applying style for the body selector applies to all child objectd */
-    color: #39a6b2;
+    color: #39a6b2; 
     font-family: Helvetica, Arial,sans-serif;
-
+    
 }
