@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box; /* determines how to calculate widht and height of each element. Border box calculates the height and widht by including the border and padding addition to the content box  */
 } /* tells every element on the page not to have a margin or border unless we explicitly tell it to */
 
 
@@ -49,4 +49,24 @@ body { /* Applying style for the body selector applies to all child objectd */
     color: #39a6b2; 
     font-family: Helvetica, Arial,sans-serif;
     
+}
+footer {    
+    background: #fce138;
+    /* width: 100%; */
+    padding: 40px 35px;
+}
+footer h2 {    
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+footer div {
+    float: right;
+    line-height: 1.5; /* assigns how much vertical space should be between lines of text content. 1.5 means we want the spacing to be 1.5 times the size of the font */
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
 }
